@@ -24,12 +24,8 @@ public class Main {
             double prediccion = modelo.predecir(x);
 
             System.out.printf(
-                "Advertising: %.2f -> Sales estimadas: %.2f\n",
-                x,
-                prediccion
+                "Advertising: %.2f -> Sales estimadas: %.2f\n", x, prediccion
             );
         }
-
-        System.out.println("==================================");
     }
 }
